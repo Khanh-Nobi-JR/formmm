@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+</head>
+<body>
+
+<form action="formsurvey.html">
+    <h1>Market Research Survey</h1>
+    <p style="color: crimson;">Please take a few moments to complete this satisfaction survey.</p>
+    <br>
+    <p><strong>What is your age range</strong></p>
+    <select name="tuoi" id="tuoi">
+        <option value="A">18-24</option>
+        <option value="B">25-34</option>
+        <option value="C">35-50</option>
+        <option value="D">50+</option>
+    </select> <br> <br>
+    <label for="tien"><strong>What is your yearly income range?</strong></label> <br>
+    <select name="tien" id="tien">
+        <option value="1">$0-$25,00</option>
+        <option value="2">$25,01-$50,00</option>
+        <option value="3">$50,01-$100,00</option>
+        <option value="4">$100,01+</option>
+    </select> <br><br>
+    <label for="Gender"><strong>Gender Identity</strong></label> <br>
+    <p>
+        <input type="radio" name="gt" id="Gender" value=""/>Male <br>
+        <input type="radio" name="gt"  value=""/>Female <br>
+        <input type="radio" name="gt"  value=""/>Nonbinary <br>
+        <input type="radio" name="gt" "value=""/>Other <br>
+        <label for="other"><input type="text"name="gt" id="other"></label>
+    </p> <br>
+    <label for=""><strong>Which of the following products have your purchased in the last 2 months. Please check all that apply.</strong></label>
+    <p>
+        <input type="checkbox"name="sp"id="sp">Product 1 <br>
+        <input type="checkbox"name="sp"id="sp">Product 2 <br>
+        <input type="checkbox"name="sp"id="sp">Product 3 <br>
+    </p>
+    <br>
+    <label for=""><strong>How often would you use our new product?</strong></label>
+    <p>
+        <input type="radio"name="ve">Daily <br>
+        <input type="radio"name="ve">Weekly <br>
+        <input type="radio"name="ve">Monthly <br>
+    </p>
+    <br>
+    <label for=""><strong>What would you pay for the new product?</strong></label>
+    <p>$ <input type="text" style="width:50px">. <input type="text" style="width:30px"></p>
+</form>
+</body>
+</html>
